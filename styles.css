@@ -1,0 +1,351 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.header{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/008/311/935/non_2x/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg');
+    background-size: cover;
+}
+.header h1 {
+    color: #f0f3f0;
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.superk {
+    font-weight: bold;
+}
+
+.header h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #e6ece7;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.note {
+    font-size: 18px;
+    color: #4CAF50;
+}
+
+.speakers-section {
+    margin-top: 30px;
+    background-image: url('https://media.istockphoto.com/id/1359816909/vector/announcement-advertising-promo-banner-orange-color-vector-announce-excited-attention-and.jpg?s=612x612&w=0&k=20&c=DoIlgiRVp_A-OBLw5HSTUZ2tcuDd3cj5hFBlvsXQ7ss=');
+    background-size: cover;
+}
+
+.speakers-section h2 {
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #0a3d62;
+    padding: 10px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logos img {
+    max-width: 100px;
+    height: auto;
+}
+
+.insider-knowledge {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    text-align: left;
+}
+
+.insider-knowledge h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+.podcast-section {
+    margin-top: 30px;
+}
+
+.podcast {
+    background-color: #ce9393;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.podcast h3 {
+    margin-top: 0;
+}
+.career-advice {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #45e0cb;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.career-advice h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1134e2;
+}
+
+.career-advice .advice {
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.career-advice .advice h3 {
+    font-size: 22px;
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.career-advice .advice p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #555;
+}
+.personal-development {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9f7ef;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.personal-development h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.personal-development .workshop {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.personal-development .workshop:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.personal-development .workshop h3 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #2980b9;
+}
+
+.personal-development .workshop p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #7f8c8d;
+}
+
+.claim-access {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.claim-access h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #d746ae;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.claim-access form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.claim-access input {
+    padding: 15px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.claim-access input:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    color: #fff;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.note {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.learn-link {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.footer p, .footer ul {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.payment-methods img, .social-media img {
+    max-width: 40px;
+    height: auto;
+}
